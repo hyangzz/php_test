@@ -14,3 +14,12 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('/oss','OssUploadController@UploadConfig');
+
+Route::get('/abc',function (){
+    return view('index');
+});
+
+
+
